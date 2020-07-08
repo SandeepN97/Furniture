@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background-color: #efefef;
+}
+/*-------Navigation Bar--------*/
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Kaushan Script', cursive;
+}
+/*-------X--Navigation Bar----X---*/
+
+/*---Jumbotron-----*/
+.jumbotron{
+    align-items: center;
+    background-image: url(image/product-banner.jpg);
+    background-size: cover;
+    height:100%;
+    color:black;
+    background-repeat: no-repeat;
+}
+hr{
+    height:30px;
+}
+/*--X--Jumbotron--X---*/
+
+
+#carouselExampleIndicators .carousel-caption{  
+    left:0;
+    max-width: 350px;
+    height:79%;
+    text-align: right;
+    color:black;
+    font-family: 'Kaushan Script', cursive;
+}
+.nabbar-brand {
+    color: #33525c;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 80px;
+}
+
+.navbar-brand:hover {
+    color: black;
+    transition: ease-in-out;
+}
+
+.navbar {
+    border-radius: 3px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+#our-product>.container {
+    width: 100%;
+    margin-top: 60px;
+
+}
+
+#our-product>.container>.new_arivals {
+    font-weight: 250;
+    font-size: 24px;
+    padding: 5px;
+    height: 40px;
+}
+
+#our-product>.container h2 {
+    font-weight: 250;
+    font-size: 24px;
+    height: 40px;
+}
+
+#our-product>.container h3 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#our-product>.container>.product-bottom>.fa {
+    color: #28a745;
+    font-size: 10px;
+}
+
+.product-bottom .fa {
+    color: #28a745;
+    font-size: 10px;
+}
+
+.product-bottom .fas {
+    color: #28a745;
+    font-size: 10px;
+}
+
+.product-bottom .far {
+    color: #28a745;
+    font-size: 10px;
+}
+
+
+.overlayer {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.product-top:hover .overlayer {
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+.overlayer .fa {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-bottom: 5px;
+}
+
+.overlayer .btn-secondary {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/*----------------------------------------*/
+#footer {
+    background-color: #e9ecef;
+    color: black;
+}
+
+#footer .container {
+    padding-top: 30px;
+}
+
+.container{
+    box-shadow: #33525c;
+}
+#footer h4 {
+    font-family: 'Lobster', cursive;
+}
+
+#footer .twitter .facebook .instagram .linkedin .google-plus {
+    font-size: medium;
+}
+
+.fa-facebook:before {
+    content: "\f09a";
+    font-size: 30px;
+    color: black;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+    font-size: 30px;
+    color: black;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    font-size: 30px;
+    color: black;
+}
+
+.fa-linkedin:before {
+    content: "\f08c";
+    font-size: 30px;
+    color: black;
+}
+.fa-google-plus:before {
+    content: "\f2b3";
+    font-size: 30px;
+    color: black;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    background: blue;
+    margin-top: 10px;
+}
+
+.row ul{
+    text-transform: uppercase;
+    color:black;
+}
+.row ul li{
+    color:black;
+    text-decoration: none;
+}
+.copyright{
+    margin:10px;
+    text-align: center;
+}
+.copyright{
+    background-color: blanchedalmond;
+}
