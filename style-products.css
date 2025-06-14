@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body{
     background-color: #efefef;
 }
@@ -38,7 +35,7 @@ hr{
     color:black;
     font-family: 'Kaushan Script', cursive;
 }
-.nabbar-brand {
+.navbar-brand {
     color: #33525c;
     font-family: 'Kaushan Script', cursive;
     font-size: 25px;
@@ -157,7 +154,7 @@ hr{
     font-family: 'Lobster', cursive;
 }
 
-#footer .twitter .facebook .instagram .linkedin .google-plus {
+#footer .twitter, #footer .facebook, #footer .instagram, #footer .linkedin, #footer .google-plus {
     font-size: medium;
 }
 
@@ -206,7 +203,5 @@ hr{
 .copyright{
     margin:10px;
     text-align: center;
-}
-.copyright{
     background-color: blanchedalmond;
 }
