@@ -1,0 +1,6 @@
+# Ignore Maven target directory
+backend/target/
+# Ignore IDE files
+*.iml
+.idea/
+*.class

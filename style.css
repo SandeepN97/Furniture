@@ -12,7 +12,7 @@ body{
     color:black;
     font-family: 'Kaushan Script', cursive;
 }
-.nabbar-brand {
+.navbar-brand {
     color: #33525c;
     font-family: 'Kaushan Script', cursive;
     font-size: 25px;
@@ -128,7 +128,7 @@ body{
     font-family: 'Lobster', cursive;
 }
 
-#footer .twitter .facebook .instagram .linkedin .google-plus {
+#footer .twitter, #footer .facebook, #footer .instagram, #footer .linkedin, #footer .google-plus {
     font-size: medium;
 }
 
@@ -177,7 +177,5 @@ body{
 .copyright{
     margin:10px;
     text-align: center;
-}
-.copyright{
     background-color: blanchedalmond;
 }
